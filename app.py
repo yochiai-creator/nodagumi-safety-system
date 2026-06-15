@@ -958,8 +958,10 @@ td, th {{ border: 1px solid #333; padding: 8px; vertical-align: top; }}
 </html>"""
 
 
-# QR共有URL。Secretsに PUBLIC_APP_URL があれば優先、なければ固定URLを使います。
-PUBLIC_URL = st.secrets.get("PUBLIC_APP_URL", DEFAULT_PUBLIC_URL)
+# QR共有URL。Secretsに PUBLIC_APP_UPUBLIC_URL = st.secrets.get(
+    "PUBLIC_APP_URL",
+    "https://nodagumi-safety-v7.streamlit.app"
+)
 
 st.set_page_config(page_title=APP_TITLE, page_icon="🦺", layout="wide")
 
