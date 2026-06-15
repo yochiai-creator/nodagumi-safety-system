@@ -1,8 +1,0 @@
-QR修正版
-
-変更内容:
-- QR共有タブで公開URLの手入力を不要化
-- 固定URL https://nodagumi-safety-v7.streamlit.app を自動表示
-- Streamlit Secrets の PUBLIC_APP_URL でURL上書き可能
-
-GitHubへ app.py を差し替えてCommitしてください。
